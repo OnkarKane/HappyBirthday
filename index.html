@@ -13,7 +13,7 @@
 
         #message-container {
             position: absolute;
-            top: 20%; /* Adjusted to move text higher */
+            top: 55%; /* Adjusted to move text higher */
             left: 50%;
             transform: translate(-50%, 0); /* Center horizontally */
             text-align: center;
@@ -64,7 +64,7 @@
             width: 100%;
             height: 100%;
             background-image: url('HBD.jpg');
-            background-size: cover; /* Scale background properly */
+            background-size:contain; /* Scale background properly */
             background-position: center;
             background-repeat: no-repeat;
             display: none;
@@ -94,7 +94,6 @@
             "I remembered it's your Birthday Today.",
             "As such",
             "Happy Birthday!",
-            "Wishing you a day filled with love, laughter, and all the things that make you smile.",
             "I hope you have the most splendid day ever.",
             "Here's to another year of amazing memories and adventures!",
             "From your friend Onkar :D"
@@ -126,7 +125,7 @@
                 setTimeout(() => {
                     messageElement.remove();
                     showMessage();
-                }, 7000);
+                }, 4000);
             } else {
                 // Display the background image after the last message
                 setTimeout(() => {
